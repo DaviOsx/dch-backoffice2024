@@ -21,7 +21,7 @@ public class Country {
     private String country;
     private Date lastUpdate;
 
-
+// "country" es el campo con que tenemos que enlazar"
     @OneToMany(mappedBy = "country")
     private List<City> citys;
 

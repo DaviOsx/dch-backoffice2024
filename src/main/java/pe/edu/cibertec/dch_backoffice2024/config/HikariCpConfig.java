@@ -1,4 +1,4 @@
-package pe.edu.cibertec.dch_backoffice2024.Config;
+package pe.edu.cibertec.dch_backoffice2024.config;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;

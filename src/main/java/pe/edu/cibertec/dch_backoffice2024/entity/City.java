@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Data
@@ -23,6 +24,10 @@ public class City {
     @ManyToOne
     @JoinColumn(name = "country_id")
     private Country country;
+
+    @OneToMany(mappedBy = "city")
+    private List<Address> address;
+
 }
 
 
